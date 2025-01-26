@@ -1,0 +1,1 @@
+{"name":"Local: ConsecutiveOnes","url":"d:\\Document\\Algorithm\\ConsecutiveOnes.cpp","tests":[{"id":1737701880011,"input":"3 2","output":""},{"id":1737701882940,"input":"4 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Document\\Algorithm\\ConsecutiveOnes.cpp","group":"local","local":true}

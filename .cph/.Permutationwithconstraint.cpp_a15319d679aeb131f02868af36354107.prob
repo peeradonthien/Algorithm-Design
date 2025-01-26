@@ -1,0 +1,1 @@
+{"name":"Local: Permutationwithconstraint","url":"d:\\Document\\Algorithm\\Permutationwithconstraint.cpp","tests":[{"id":1737711646053,"input":"3 0","output":""},{"id":1737711870251,"input":"3 1\n1 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Document\\Algorithm\\Permutationwithconstraint.cpp","group":"local","local":true}

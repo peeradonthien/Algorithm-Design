@@ -1,0 +1,1 @@
+{"name":"Local: Insertionsort","url":"d:\\Document\\Algorithm\\Insertionsort.cpp","tests":[{"id":1737833039940,"input":"6 2\n3 4 6 2 1 5\n6 2","output":""},{"id":1737880043394,"input":"10 5\n10 9 8 3 1 4 2 5 7 6\n6 2 8 5 7","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Document\\Algorithm\\Insertionsort.cpp","group":"local","local":true}
