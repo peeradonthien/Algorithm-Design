@@ -1,0 +1,1 @@
+{"name":"Local: hugearray","url":"d:\\Document\\Algorithm\\hugearray.cpp","tests":[{"id":1738398669224,"input":"5 2\n1 1\n10 1\n5 1\n1 1\n3 1\n5\n1","output":""},{"id":1738398876256,"input":"5 3\n9 1\n4 5\n9 3\n8 3\n7 7\n1\n15\n8","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Document\\Algorithm\\hugearray.cpp","group":"local","local":true}
