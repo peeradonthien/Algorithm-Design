@@ -15,20 +15,16 @@ void fight(int nowpos){
         return;
     }
     int tower_x = towerpos[nowpos]; 
-    vector<int> affected_indices;
 
     for (int i = 0; i < m; i++) {
         if (abs(monster[i].first - tower_x) <= w && monster[i].second > 0) {
             monster[i].second--; 
-            affected_indices.push_back(i); 
+            fight(nowpos + 1);
+            monster[i].second++;
         }
     }
-
     fight(nowpos + 1);
 
-    for (int i : affected_indices) {
-        monster[i].second++;
-    }
 
 }
 
@@ -43,7 +39,7 @@ int main(){
     for(int i =0;i<m;i++){
         cin >> monster[i].second;
     }
-    sort(monster.begin(),monster.end());
+    //sort(monster.begin(),monster.end());
     towerpos.resize(k);
     for(int i =0;i<k;i++){
         cin >> towerpos[i];

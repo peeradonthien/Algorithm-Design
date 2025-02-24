@@ -1,0 +1,1 @@
+{"name":"Local: Restaurant","url":"d:\\Document\\Algorithm\\Restaurant.cpp","tests":[{"id":1738641361371,"input":"3 5\n2 2 5\n4 5 6 30 123456789012","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Document\\Algorithm\\Restaurant.cpp","group":"local","local":true}

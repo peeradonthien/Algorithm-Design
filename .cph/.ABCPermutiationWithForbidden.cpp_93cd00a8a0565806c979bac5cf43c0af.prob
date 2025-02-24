@@ -1,0 +1,1 @@
+{"name":"Local: ABCPermutiationWithForbidden","url":"d:\\Document\\Algorithm\\ABCPermutiationWithForbidden.cpp","tests":[{"id":1739172271375,"input":"2 1 1 2\n0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Document\\Algorithm\\ABCPermutiationWithForbidden.cpp","group":"local","local":true}
