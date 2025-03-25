@@ -1,0 +1,1 @@
+{"name":"Local: CoinChange","url":"d:\\Document\\Algorithm\\CoinChange.cpp","tests":[{"id":1740448445149,"input":"4 28\n10 5 2 1","output":""},{"id":1740448823879,"input":"4 10\n10 5 2 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Document\\Algorithm\\CoinChange.cpp","group":"local","local":true}
