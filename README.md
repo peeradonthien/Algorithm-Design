@@ -7,8 +7,6 @@
 The purpose of this repository is to practice and reinforce algorithmic problem-solving skills taught in class.
 
 
-> File and folder names may correspond to weeks, topics, or specific problem names.
-
 ## How to Compile & Run
 
 Make sure you have a C++ compiler (e.g., `g++`) installed.  
