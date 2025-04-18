@@ -14,22 +14,22 @@ int main(){
     int offset[4][2] = {{-1,0},{1,0},{0,-1},{0,1}};
     //dijkstra
     vector<vector<int>> dist(r,vector<int>(c,1e9));
-    vector<pair<int,int>> prev(r*c,{-1,-1});
     set<pair<pair<int,int>,int>> s;
+    dist[0][0] = 0;
     s.insert({{0,0},0});
     while(!s.empty()){
         auto b = *s.begin();
         int x = b.first.first;
         int y = b.first.second;
+        s.erase(b);
         for(int i=0;i<4;i++){
-            if(x < 0 || x >= r || y < 0 || y>=c)continue;
             int adjx = x+offset[i][0];
             int adjy = y+offset[i][1];
+            if(adjx < 0 || adjx >= r || adjy < 0 || adjy>=c)continue;
             if(dist[adjx][adjy] > b.second + map[adjx][adjy]){
-                if(s.find()!=s.end()) erase;
+                if(s.find({{adjx,adjy},dist[adjx][adjy]})!=s.end()) s.erase({{adjx,adjy},dist[adjx][adjy]});
                 dist[adjx][adjy] = b.second + map[adjx][adjy];
-                prev[] = 
-                s.insert();
+                s.insert({{adjx,adjy},dist[adjx][adjy]});
             }
         }
     }
