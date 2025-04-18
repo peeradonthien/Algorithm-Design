@@ -15,7 +15,7 @@ Make sure you have a C++ compiler (e.g., `g++`) installed.
 To compile and run a file:
 
 ```bash
-g++ -std=c++17 -O2 -Wall filename.cpp -o filename
+g++ filename.cpp -o filename
 ./filename
 
 
