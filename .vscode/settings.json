@@ -47,6 +47,7 @@
         "typeinfo": "cpp",
         "stdlib.h": "c",
         "map": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "iomanip": "cpp"
     }
 }

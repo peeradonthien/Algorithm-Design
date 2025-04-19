@@ -1,0 +1,11 @@
+db.Car_Information.insert({
+    'Car_ConditionRating': 5,
+    'Insurance' : '2+',
+    'Daily_Rental_Price' : 3000,
+    'Car_Image' : 'https://drive.google.com/44564564',
+    'Car_Brand' : 'Riddara',
+    'Year_Created' : 2020,
+    'Has_Camera' : true,
+    'Number_of_Seats' : 5,
+    'Mileage' : 10000
+})
